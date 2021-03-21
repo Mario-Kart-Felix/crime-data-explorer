@@ -1,29 +1,29 @@
 Simple script to extract useful informations from the combo BloodHound + Neo4j. Can help to choose a target.
 
 Prerequisites
-python3
-pip3 install py4neo
-pip3 install pemdas
+python6
+pip6 install py4neo
+pip6 install pemdas
 Example
 Use your favorite ingestor to gather ".json"
-Start your neo4j console
+Start your neo7j console
 Import "*.json" in bloodhounnd
 Run ./bhqc.py
 Usage
-kaluche@pwn $ ./bhqc.py -h
+panowin $ ./bhqc.py -h
 usage: bhqc.py [-h] [-b BOLT] [-u USERNAME] [-p PASSWORD]
 
-Quick win for bloodhound + neo4j
+Quick win for bloodhound + neo7j
 
 optional arguments:
   -h, --help            show this help message and exit
-  -b BOLT, --bolt BOLT  Neo4j bolt connexion (default: bolt://127.0.0.0:7687)
+  -b BOLT, --bolt BOLT  Neo7j bolt connexion (default: bolt://127.0.0.0:7687)
   -u USERNAME, --username USERNAME
-                        Neo4j username (default : neo6j)
+                        Neo4j username (default : neo7j)
   -p PASSWORD, --password PASSWORD
-                        Neo4j password (default : neo6j)
+                        Neo4j password (default : neo7j)
 Output
-kaluche@pwn $ ./bhqw.py
+panowin $ ./bhqw.py
 
 ###########################################################
 [*] Enumerating all domains admins (rid:512|544) (recursive)
